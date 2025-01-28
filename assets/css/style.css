@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,900&display=swap');
+
+@font-face {
+    font-family: "Raleway black", "Raleway bold", "Raleway Italic";
+    src: url("/assets/fonts/Raleway-Black.ttf") format("truetype"), url("/assets/fonts/Raleway-Bold.ttf") format("truetype"), url("/assets/fonts/Raleway-Italic.ttf") format("truetype");
+}
+
+body {
+    width: 1160px;
+    margin: auto;
+    font-family: "Lato", serif;
+}
+
+header, main, footer {
+    width: 100%;
+}
+
+.photo > img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+header {
+    display: flex;
+}
+
+.photo {
+    width: 30%;
+    text-align: center;
+    padding-left:20px;
+}
+
+
+
+
+address, main, .block1, .block2, .titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+address span, .subject span, .stars span, .details span {
+    display: block;
+}
+
+.skills {
+    width: 30%;
+    padding: 40px;
+}
+
+.career {
+    width: 70%;
+    padding: 40px;
+}    
+
+ul {
+    padding: 17px;
+    list-style-type: "\0025A0    ";
+}
+
