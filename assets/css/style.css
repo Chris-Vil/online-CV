@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400;1,900&display=swap');
 
 @font-face {
-    font-family: "Raleway black", "Raleway bold", "Raleway Italic";
-    src: url("/assets/fonts/Raleway-Black.ttf") format("truetype"), url("/assets/fonts/Raleway-Bold.ttf") format("truetype"), url("/assets/fonts/Raleway-Italic.ttf") format("truetype");
+    font-family: "Raleway black";
+    src: url("/assets/fonts/Raleway-Black.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Raleway bold";
+    src:url("/assets/fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway Italic";
+    src: url("/assets/fonts/Raleway-Italic.ttf") format("truetype");
 }
 
 html{
