@@ -143,8 +143,16 @@ address span, .subject span, .stars span, .details span {
 
 ul {
     padding: 17px;
-    list-style-type: "\0025A0    ";
+    list-style-type: none;
     padding-top: 0px;
+}
+
+li::before {
+    content: "\0025A0";
+    color: #17abb3;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 .details {
